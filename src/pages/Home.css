@@ -1,0 +1,54 @@
+/* Home Page Styling */
+.home-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #121212; /* Dark mode background */
+    color: white;
+    min-height: 100vh;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Title Styling */
+  .home-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffcc00; /* Gold color */
+    text-shadow: 2px 2px 4px rgba(255, 204, 0, 0.7);
+  }
+  
+  /* Pagination Styling */
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .pagination button {
+    background: #ffcc00;
+    color: #121212;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .pagination button:hover {
+    background: #e6b800;
+  }
+  
+  .pagination button:disabled {
+    background: #555;
+    cursor: not-allowed;
+  }
+  
+  .pagination span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  

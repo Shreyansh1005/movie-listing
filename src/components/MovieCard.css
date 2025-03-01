@@ -1,0 +1,49 @@
+/* Movie Card Styling */
+.movie-card {
+    background: #1e1e1e; /* Dark theme */
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 250px;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(255, 204, 0, 0.5);
+}
+
+/* Movie Poster */
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Movie Title */
+.movie-card h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #ffcc00; /* Gold */
+}
+
+/* Movie Details Link */
+.movie-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    font-size: 1rem;
+    color: #121212;
+    background: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.movie-card a:hover {
+    background: #e6b800;
+    transform: scale(1.05);
+}
